@@ -1,7 +1,7 @@
 import re   # for regular expression
 import time # for sleeping the bot
 import os   # for files
-import praw # the api for interacting ith reddit
+import praw # the api for interacting with reddit
 import requests # required by praw
 import pandas   # for dataframes
 from tabulate import tabulate   # to convert the dataframe to mark_down
