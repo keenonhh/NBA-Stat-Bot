@@ -1,2 +1,13 @@
 # NBA-Stat-Bot
-This is a bot that pulls comments/posts from reddit containing a players name within double brackets and responds with that players current season stats 
+Reddit bot that fetches submissions/comments from the r/fantasybball subreddit and parses them using regex expression to find player names contained within double brackets. These names are then passed to the NBA-API and season averages for those players are returned and then stored in a dataframe. This data frame is then converted to markdown via the tabluate library which facilitates a table formatted response to the original comment. Sample output can be seen below.
+
+![output](output.png)
+
+APIs Utilized:
+* NBA-API
+* PRAW (Python Reddit API Wrapper)
+
+Libraries Utilized:
+* Pandas
+* Tabulate
+* Re
